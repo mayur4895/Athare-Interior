@@ -175,17 +175,17 @@ import { UserButton } from '@clerk/nextjs';
         <MenubarMenu> 
          
          
-        <UserButton/>
+   
         
         </MenubarMenu> 
     
     </div>
              
        
-
+  
     <MenubarMenu> 
       <Sheet open={isopen} onOpenChange={setisopen}> 
-      <SheetTrigger className="font-semibold  md:hidden block"> <Grip /></SheetTrigger>
+      <SheetTrigger className="font-semibold  md:hidden block mr-4"> <Grip /></SheetTrigger>
       
       <SheetContent>
         <SheetHeader className="mb-8 flex gap-4 flex-row">
@@ -305,6 +305,9 @@ import { UserButton } from '@clerk/nextjs';
 
         </MenubarMenu> 
         </div>
+     
+    <UserButton/>
+       
       </Menubar>
   
  
